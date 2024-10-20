@@ -1,7 +1,29 @@
-.dark{
+.body{
+	background-color: white;
+	color: black;
+	
+}
+
+
+.darkmodebutton{
 		background-color:black; 
 		color:white; 
 		border-radius:9px; 
 		position:absolute; 
 		top:15px;
+}
+.new{
+	background-color:blue; 
+		color:white; 
+		border-radius:9px; 
+		position:absolute; 
+		top:15px;
+		right: 10px;
+}
+
+body.DarkMode{
+	background-color:black; 
+	color:white;
+	
+	
 }
