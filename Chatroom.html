@@ -11,18 +11,28 @@
 
 
 <body>
+
     <h1>Welcome to the VOID™ ChatRoom!</h1>
-    <!--form is allow for the collection of user input-->
+    <!--Allows for username input-->
+    <section>
+        <form id="UserNameForm">
+            <input type="text" id="usernameInput" name="usernameInput" placeholder="Enter your username here">
+            <button id="usernameSubmit" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!--form is allow for the collection of user input for the message-->
     <form id="ChatInput">
         <!--We use textaera to allow multiline inputs however because of this we need a send message button because when we press enter in a textarea it makes a new line-->
         <textarea id="messageInput" name="messageInput" rows="2" cols="90" placeholder="Enter your message here"></textarea>
         <button id=submitButton type="submit">Send Message</button>
-
     </form>
+
     <!--This is where the chat messages will be displayed and sends it off to the JS code-->
     <div id="ChatContainer"></div>
 
     <script src = "chatroom.js" defer></script> 
 </body>
+
 
 </html>
